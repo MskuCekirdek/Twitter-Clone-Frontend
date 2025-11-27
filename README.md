@@ -3,6 +3,11 @@
 Next.js 16, App Router ve Tailwind CSS 4 ile hazırlanmış küçük bir X/Twitter klonu. Proje; kimlik doğrulama, tweet oluşturma, feed çekme, gündem kutusu ve durum yönetimi (Zustand) içeriyor. Bu README, daha önce web geliştirmemiş biri için öğretmen anlatımıyla hazırlandı.
 
 ---
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+---
+windows düzeltme kodu
+
+---
 
 ## HTML Kaynakları
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
