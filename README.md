@@ -4,6 +4,13 @@ Next.js 16, App Router ve Tailwind CSS 4 ile hazırlanmış küçük bir X/Twitt
 
 ---
 
+## HTML Kaynakları
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+https://www.w3schools.com/tags/default.asp
+
+## CSS Kaynakları
+https://www.w3schools.com/w3css/w3css_intro.asp
+
 ## Proje Kurulumu (sıfırdan başlama adımları)
 1) VS Code’da terminali aç, projeyi kurmak istediğin klasörü aç (`File > Open Folder`).
 2) Terminale `npx create-next-app@latest` yaz ve Enter’a bas.
@@ -41,7 +48,7 @@ npm install
 ### Ortam değişkeni
 Projenin API ile konuşabilmesi için `.env.local` dosyasına backend adresini ekle:
 ```
-NEXT_PUBLIC_API_URL=http://localhost:3001/api
+NEXT_PUBLIC_API_URL="https://msku-cekirdek-twitterapi-nds0uc-becaec-45-141-151-147.traefik.me"
 ```
 - Backend’i önce başlat; frontend giriş ve tweet isteklerini buraya yolluyor.
 

@@ -83,7 +83,7 @@ export default function AuthPage() {
             {/* LOGIN */}
             <TabsContent value="login">
               <div className="space-y-4 mt-6">
-                <div>
+                <div className="p-1 flex flex-col gap-1">
                   <Label>Email</Label>
                   <Input
                     type="email"
@@ -93,7 +93,7 @@ export default function AuthPage() {
                   />
                 </div>
 
-                <div>
+                <div className="p-1 flex flex-col gap-1">
                   <Label>Şifre</Label>
                   <Input
                     type="password"

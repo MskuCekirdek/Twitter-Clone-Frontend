@@ -9,7 +9,6 @@ export default function HomePage() {
     <div className="flex justify-center">
       <Sidebar />
 
-      {/* ORTA ALAN */}
       <main className="w-[600px] border-x min-h-screen">
         <TweetFeed />
       </main>
